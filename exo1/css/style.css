@@ -1,0 +1,70 @@
+/*
+Le reste poru configurer la valeur de 1rem = 10px
+*/
+    /* Supprimer toutes les marges de toutes les balise */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        font-size: 62.5%; /* 1rem => 10px */
+    }
+
+    body{
+        font-size: 1.5rem; /* => 15px */
+
+        /* Modifier l'alignement de la police */
+        text-align: center;
+    }
+/**/
+
+
+
+
+
+
+/* 
+Aligner les balises A de la nav
+*/  
+    /* Sélectionner les balises LI de la NAV */
+    nav li{
+        /* Modifier le type de balise */
+        display: inline-block;
+    }
+/**/
+
+
+
+
+
+
+
+/*
+Les propriété de gestion des textes (h1, h.., p, tous le texte)
+*/
+    p{
+        /* Changer la taille de la police */
+        font-size: 1.7rem;
+
+        /* Modifier la graisse de la police */
+        font-weight: 100;
+
+        /* Modifier l'interlignage de la police */
+        line-height: 1.5;
+
+        /* Modifier l'interlettrager de la police */
+        letter-spacing: .1rem;
+    }
+
+    a{ 
+        /* Modifier la couleur */
+        color: red;
+
+        /* Supprimer le soulignement de la police */
+        text-decoration: none;
+
+        /* Modifier la case : passer le texte en majuscule */
+        text-transform: uppercase;
+    }
+/**/
