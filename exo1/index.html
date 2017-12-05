@@ -80,6 +80,30 @@
                 </figure>
             </section>
 
+            <section>
+                <h2>Contacts</h2>
+                <!-- Créer un formulaire et afficher l'adresse postale -->
+                <article>
+                    <h3>Formulaire de contact</h3>
+                    <form action="php/sendMessage.php">
+
+                        <label for="userEmail">Votre adresse mail</label>
+                        <!-- Ajouter un champ pour l'email -->
+                        <input type="email" name="userEmail" placeholder="Min. 5 caractères" required>
+
+                        <label for="userMessage">Votre message</label>
+                        <textarea name="userMessage" required></textarea>
+
+                        <!-- Permettre la soumission du formulaire -->
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </article>
+
+                <article>
+                    <h3>Adresse postale</h3>
+                    <p>20, rue du Menton - Paris 75012</p>
+                </article>
+            </section>
         </main>
 
         <!-- Fermeture de page -->
